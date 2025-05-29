@@ -1,0 +1,39 @@
+# Node.js
+node_modules/
+dist/
+.cursor/
+.codebackups/
+.cursorignore
+
+# Logs created by this tool when run in install mode from its source directory,
+# or any other log files generated during development/testing of the tool itself.
+logs/
+*.log
+backupTool/
+
+# IDE specific
+.vscode/
+.idea/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# npm/yarn specific debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+*.log
+
+# Environment variables
+.env*
+!.env.example
+
+# backupTool
+# backupTool rules
+# backupTool
+/backupTool/
+*.key
+*.pem
+config.local.*
